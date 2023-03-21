@@ -1,0 +1,44 @@
+.greet_section p {
+  margin: 40px auto;
+  text-align: center;
+
+}
+
+.greet_section p:nth-of-type(1) {
+  max-width: 450px;
+}
+
+.greet_section p:nth-of-type(2) {
+  max-width: 550px;
+}
+
+.greet_section p:nth-of-type(3) {
+  max-width: 450px;
+}
+
+.greet_section p:nth-of-type(4) {
+  max-width: 550px;
+}
+
+
+
+
+
+@media screen and (min-width:600px) {
+  .greet_section figure {
+    display: flex;
+  }
+
+  .greet_section figure img {
+    flex: 1;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .greet_section figure img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}

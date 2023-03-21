@@ -1,0 +1,128 @@
+footer .sitemap {
+  padding: 30px 0;
+  background: var(--dark-color);
+}
+
+footer .sitemap > ul {
+  display: flex;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .sitemap > ul > li {
+  flex: 1;
+}
+
+footer .sitemap > ul > li > a {
+  display: none;
+}
+
+footer .sitemap h6 {
+  color: #aaa;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+footer .sitemap h6::before {
+  content: '-';
+}
+
+footer .sitemap > ul > li > ul > li {
+  margin: 3px 0;
+}
+
+footer .sitemap > ul > li > ul > li a::before {
+  content: '•';
+}
+
+footer .sitemap > ul > li > ul > li a:hover {
+  color: var(--point-color);
+}
+
+footer .sitemap > ul > li.sns > ul > li {
+display: inline-block;
+margin-right: 5px;
+}
+
+footer .sitemap > ul > li.sns > ul > li > a{
+  font-size: 1.5em;
+}
+
+footer .sitemap > ul > li.sns > ul > li > a::before {
+  display: none;
+}
+
+@media screen and (max-width:1000px) {
+  footer .sitemap > ul{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer .sitemap > ul > li:not(.sns) > ul {
+    display: none;
+  }
+
+  footer .sitemap > ul > li{
+    flex: none;;
+    margin: 0 5px;
+  }
+
+  footer .sitemap > ul > li.sns {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .sitemap > ul > li.sns h6{
+    display: none;
+  }
+
+  footer .sitemap > ul > li > h6 {
+    text-align: center;
+    font-size: 0.8em;
+
+  }
+
+  footer .sitemap > ul > li > h6::before {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+.info {
+  padding: 20px 0;
+  background-color: #2f2f2f;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.info address,
+.info p{
+  width: 90%;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.info address {
+  color: #888;
+}
+
+.info address i{
+  display: inline-block;
+}
+
+.info address i::after{
+  content: ' /';
+  margin: 0 5px;
+}
+
+.info p{
+  font-weight: 500;
+  color: #AAA;
+}

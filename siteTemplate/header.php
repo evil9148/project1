@@ -15,12 +15,13 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/sub-layout.css">
+  <link rel="stylesheet" href="./css/biz-intro.css">
   <script src="https://kit.fontawesome.com/7aac010507.js" crossorigin="anonymous"></script>
   <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
   <script src="./js/sub.js"></script>
   <script src="./js/common.js"></script>
   <script src="./js/nav.js"></script>
-  <script src="./js/header.js"></script> 
+  <script src="./js/header.js"></script>
   <title>Document</title>
 </head>
 

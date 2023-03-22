@@ -19,7 +19,7 @@ if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
 $(function () {
   var reqID
   function fnGetWinInfo() {
-    window.scrY = $(window).scrollTop()
+    window.scrT = $(window).scrollTop()
     window.scrL = $(window).scrollLeft()
     window.winW = $(window).width()
     window.winH = $(window).height()

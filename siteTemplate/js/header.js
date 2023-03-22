@@ -1,7 +1,7 @@
 $(function(){
   var reqID
   function fnHeaderfuntion() {
-    if(scrY >= 35) {
+    if(scrT >= 35) {
       $(`header`).addClass(`active`)
     } else {
       $(`header`).removeClass(`active`)

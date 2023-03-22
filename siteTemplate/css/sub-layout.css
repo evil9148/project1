@@ -183,6 +183,7 @@
 
 .sidebar {
   position: sticky;
+  z-index: 1;
 }
 
 .snb>ul>li {
@@ -302,7 +303,10 @@
 
 /* sub-content------------------------------------------------------------------------------------------------------ */
 
-
+.sub-content {
+  position: relative;
+  z-index: 0;
+}
 
 
 .breadcrumb>li:last-child {

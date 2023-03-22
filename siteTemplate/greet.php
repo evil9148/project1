@@ -1,5 +1,5 @@
 <?php include 'sub-header.php' ?>
-
+<script src="./js/greet.js"></script>
 <h2 class="sub_title">인사말 본문</h2>
 <section class="greet_section">
   <p class="emphasis">정보화 시대에 <b class="point serif">빠른 정보를 원하는 우리들에게</b> 인터넷은 하나의 <b class="point serif">거대한 생활공간이</b> 되었습니다.</p>

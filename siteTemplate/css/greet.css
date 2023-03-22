@@ -1,7 +1,11 @@
+.greet_section {
+  overflow: hidden;
+}
+
+
 .greet_section p {
   margin: 40px auto;
   text-align: center;
-
 }
 
 .greet_section p:nth-of-type(1) {
@@ -41,4 +45,52 @@
     margin: 0 auto;
     max-width: 100%;
   }
+}
+
+
+
+
+/* p motion */
+
+
+.greet_section p {
+  opacity: 0;
+  transition: all 1s;
+}
+
+
+.greet_section p:nth-last-of-type(odd) {
+  transform: translateX(-100px);
+}
+
+.greet_section p:nth-last-of-type(even) {
+  transform: translateX(100px);
+}
+
+.greet_section p.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* img motion */
+
+.greet_section img {
+  opacity: 0;
+  filter: saturate(0);
+  transition: all 1s;
+}
+
+.greet_section img:first-child {
+  transform: translateX(-100px);
+}
+
+.greet_section img:last-child {
+  transform: translateX(100px);
+}
+
+.greet_section img.active {
+  opacity: 1;
+  filter: saturate(1);
+  transform: translateX(0);
 }
